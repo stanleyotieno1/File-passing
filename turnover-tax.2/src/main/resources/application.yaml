@@ -1,0 +1,17 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: TURNOVER-TAX-SERVICE
+    
+  datasource:
+    url: jdbc:postgresql://localhost:5432/turnover-tax
+    username: postgres
+    password: stan
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:  
+      ddl-auto: update
+    show-sql: true
